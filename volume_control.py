@@ -3,7 +3,7 @@ import mediapipe as mp
 import numpy as np
 import math
 
-# For Windows volume control
+# For Windows volume control not for mac
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
